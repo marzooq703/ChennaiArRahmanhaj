@@ -1,34 +1,27 @@
 /* Responsive Css */
 
-@media only screen and (max-width: 1599px){
-
-  .main-header .header-lower{
+@media only screen and (max-width: 1599px) {
+  .main-header .header-lower {
     padding: 0px 30px;
   }
 
   .testimonial-section .testimonial-inner,
-  .testimonial-section .faq-inner{
+  .testimonial-section .faq-inner {
     padding-left: 30px;
     padding-right: 30px;
   }
-
 }
 
-
-@media only screen and (max-width: 1399px){
-
-  .main-menu .navigation > li{
+@media only screen and (max-width: 1399px) {
+  .main-menu .navigation > li {
     margin: 0px 15px;
   }
-
 }
 
-
-@media only screen and (max-width: 1200px){
-
+@media only screen and (max-width: 1200px) {
   .main-menu,
   .sticky-header,
-  .main-header.style-one .outer-container:before{
+  .main-header.style-one .outer-container:before {
     display: none !important;
   }
 
@@ -38,11 +31,11 @@
     margin-top: 12px;
   }
 
-  .megamenu ul li:first-child{
+  .megamenu ul li:first-child {
     display: none;
   }
 
-  .header-style-one .header-lower .logo-box{
+  .header-style-one .header-lower .logo-box {
     position: relative;
     left: 0px;
     top: 0px;
@@ -52,261 +45,248 @@
     text-align: center;
   }
 
-  .main-header .header-lower{
+  .main-header .header-lower {
     padding-bottom: 20px;
   }
 
-  .banner-section .owl-theme .owl-nav{
+  .banner-section .owl-theme .owl-nav {
     display: none;
   }
 
-  .image_block_one .image-box{
+  .image_block_one .image-box {
     margin-right: 0px;
   }
 
-  .activities-section .lower-box .text{
+  .activities-section .lower-box .text {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .activities-section .lower-box .sec-title{
+  .activities-section .lower-box .sec-title {
     margin-bottom: 15px;
   }
 
-  .header-style-two .header-lower{
-    padding-top: 20px;
-  }
-
-  .header-style-two .menu-area .mobile-nav-toggler{
+  .header-style-two .menu-area .mobile-nav-toggler {
     margin-top: 0px;
   }
 
-  .header-style-two .menu-area .mobile-nav-toggler .icon-bar{
+  .header-style-two .menu-area .mobile-nav-toggler .icon-bar {
     background: #fff;
   }
 
-  .content_block_four .content-box{
+  .content_block_four .content-box {
     margin-left: 0px;
   }
 
-  .rtl .image_block_one .image-box{
+  .rtl .image_block_one .image-box {
     margin-left: 0px;
   }
 
-  .content_block_five .content-box{
+  .content_block_five .content-box {
     margin-left: 0px;
   }
-
-
 }
 
-
-
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .main-menu .navigation > li > ul,
   .main-menu .navigation > li > ul > li > ul,
-  .main-menu .navigation > li > .megamenu{
-    display:block !important;
-    visibility:hidden;
-    opacity:0;
+  .main-menu .navigation > li > .megamenu {
+    display: block !important;
+    visibility: hidden;
+    opacity: 0;
   }
 }
 
-
-
-@media only screen and (max-width: 991px){
-
-  .image_block_one .image-box .shape{
+@media only screen and (max-width: 991px) {
+  .image_block_one .image-box .shape {
     display: none;
   }
 
-  .image_block_one .image-box{
+  .image_block_one .image-box {
     margin-bottom: 30px;
   }
 
-  .activities-block-one .inner-box{
+  .activities-block-one .inner-box {
     margin-bottom: 30px;
   }
 
-  .activities-section .lower-box .text{
+  .activities-section .lower-box .text {
     padding-left: 0px;
     margin-bottom: 15px;
   }
 
-  .video-section .inner-box{
+  .video-section .inner-box {
     display: block;
   }
 
-  .video-section .sec-title{
+  .video-section .sec-title {
     max-width: 100%;
     margin-bottom: 30px;
   }
 
-  .chooseus-section .content-inner{
+  .chooseus-section .content-inner {
     margin-bottom: 30px;
   }
 
-  .testimonial-section .testimonial-inner, .testimonial-section .faq-inner{
+  .testimonial-section .testimonial-inner,
+  .testimonial-section .faq-inner {
     width: 100%;
   }
 
-  .testimonial-section:before{
+  .testimonial-section:before {
     display: none;
   }
 
-  .testimonial-section .testimonial-inner{
+  .testimonial-section .testimonial-inner {
     padding-bottom: 0px;
   }
 
-  .accordion-box .block{
-    background: rgba(255, 255, 255, 0.10);
+  .accordion-box .block {
+    background: rgba(255, 255, 255, 0.1);
   }
 
-  .testimonial-section .faq-inner .faq-content .sec-title .sub-title{
+  .testimonial-section .faq-inner .faq-content .sec-title .sub-title {
     color: #fff;
   }
 
-  .news-block-one .inner-box{
+  .news-block-one .inner-box {
     margin-bottom: 30px;
   }
 
-  .news-section{
+  .news-section {
     padding-bottom: 90px;
   }
 
-  .footer-top .top-inner{
+  .footer-top .top-inner {
     display: block;
     text-align: center;
   }
 
-  .footer-top .footer-logo{
+  .footer-top .footer-logo {
     padding: 15px 0px;
   }
 
-  .footer-widget{
+  .footer-widget {
     margin: 0px 0px 30px 0px !important;
   }
 
-  .main-footer .widget-section{
+  .main-footer .widget-section {
     padding-bottom: 54px;
   }
 
-  .header-style-two .logo-box .social-links{
+  .header-style-two .logo-box .social-links {
     display: none;
   }
 
-  .header-style-two .logo-box .logo{
+  .header-style-two .logo-box .logo {
     padding-right: 0px;
     margin-right: 0px;
     border-right: none;
   }
 
-  .image_block_two .image-box{
+  .image_block_two .image-box {
     margin-right: 0px;
     margin-bottom: 30px;
   }
 
-  .feature-block-two .inner-box{
+  .feature-block-two .inner-box {
     margin-bottom: 30px;
   }
 
-  .feature-style-two{
+  .feature-style-two {
     padding-bottom: 90px;
   }
 
-  .gallery-style-two{
+  .gallery-style-two {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .weare-section .sec-title{
+  .weare-section .sec-title {
     margin-right: 0px;
     margin-bottom: 30px;
   }
 
-  .cta-section .inner-container{
+  .cta-section .inner-container {
     padding-left: 40px;
     padding-right: 40px;
   }
 
-  .cta-section .inner-container{
+  .cta-section .inner-container {
     display: block;
     text-align: center;
   }
 
-  .cta-section .inner-container .btn-box{
+  .cta-section .inner-container .btn-box {
     margin-top: 15px;
   }
 
-  .activities-sidebar{
+  .activities-sidebar {
     margin-bottom: 30px;
   }
 
-  .image_block_three .image-box{
+  .image_block_three .image-box {
     margin: 0px 0px 30px 0px;
   }
 
-  .team-block-one .inner-box{
+  .team-block-one .inner-box {
     margin-bottom: 30px;
   }
 
-  .team-section{
+  .team-section {
     padding-bottom: 90px;
   }
 
-  .blog-sidebar{
+  .blog-sidebar {
     margin-top: 40px;
   }
 
-  .content_block_six .content-box{
+  .content_block_six .content-box {
     margin-bottom: 30px;
   }
-
 }
 
-
-@media only screen and (max-width: 767px){
-
-  .banner-carousel .content-box h2{
+@media only screen and (max-width: 767px) {
+  .banner-carousel .content-box h2 {
     font-size: 50px;
     line-height: 60px;
   }
 
-  .banner-carousel .slide-item{
+  .banner-carousel .slide-item {
     padding: 150px 0px 180px 0px;
   }
 
-  .about-section{
+  .about-section {
     padding: 70px 0px;
   }
 
   .sec-title h2,
-  .video-section .sec-title h2{
+  .video-section .sec-title h2 {
     font-size: 40px;
     line-height: 50px;
   }
 
-  .activities-section{
+  .activities-section {
     padding: 60px 0px 70px 0px;
   }
 
-  .video-section{
+  .video-section {
     padding: 70px 0px 80px 0px;
   }
 
-  .chooseus-section .image-box .image{
+  .chooseus-section .image-box .image {
     margin-bottom: 30px;
   }
 
-  .chooseus-section{
+  .chooseus-section {
     padding: 70px 0px;
   }
 
-  .chooseus-section .content-inner .inner-box{
+  .chooseus-section .content-inner .inner-box {
     padding-right: 0px;
   }
 
-  .chooseus-section .content-inner .inner-box .inner{
+  .chooseus-section .content-inner .inner-box .inner {
     position: relative;
     top: 0px;
     width: 100%;
@@ -315,328 +295,317 @@
   }
 
   .gallery-section,
-  .news-section{
+  .news-section {
     padding: 60px 0px 40px 0px;
   }
 
   .testimonial-section .testimonial-inner,
-  .testimonial-section .faq-inner{
+  .testimonial-section .faq-inner {
     padding-top: 70px;
   }
 
-  .testimonial-section .faq-inner{
+  .testimonial-section .faq-inner {
     padding-bottom: 70px;
   }
 
-  .testimonial-section .owl-dots{
+  .testimonial-section .owl-dots {
     display: none;
   }
 
-  .main-footer .pattern-layer{
+  .main-footer .pattern-layer {
     display: none;
   }
 
-  .client-section .title-text{
+  .client-section .title-text {
     margin-bottom: 50px;
   }
 
-  .main-footer{
+  .main-footer {
     padding-top: 30px;
   }
 
-  .banner-section.style-two .banner-carousel .slide-item{
+  .banner-section.style-two .banner-carousel .slide-item {
     padding: 200px 0px 160px 0px;
   }
 
-  .client-section.alternat-2{
+  .client-section.alternat-2 {
     padding: 60px 0px 70px 0px;
   }
 
-  .feature-section{
+  .feature-section {
     padding: 70px 0px 60px 0px;
   }
 
-  .feature-block-one .inner-box{
+  .feature-block-one .inner-box {
     padding-bottom: 0px;
   }
 
-  .feature-section .inner-content{
+  .feature-section .inner-content {
     padding-bottom: 42px;
   }
 
-  .about-style-two{
+  .about-style-two {
     padding: 70px 0px;
   }
 
-  .feature-style-two{
+  .feature-style-two {
     padding: 70px 0px 40px 0px;
   }
 
-  .testimonial-style-two{
+  .testimonial-style-two {
     padding: 60px 0px 70px 0px;
   }
 
-  .content_block_four .content-box .progress-inner{
+  .content_block_four .content-box .progress-inner {
     margin-bottom: 30px;
   }
 
-  .weare-section{
+  .weare-section {
     padding: 60px 0px 40px 0px;
   }
 
-  .rtl .video-section{
+  .rtl .video-section {
     text-align: right;
   }
 
-  .rtl .chooseus-section .content-inner .inner-box{
+  .rtl .chooseus-section .content-inner .inner-box {
     padding-left: 0px;
   }
 
-  .page-title{
+  .page-title {
     padding: 120px 0px 110px 0px;
   }
 
-  .page-title .title h1{
+  .page-title .title h1 {
     font-size: 50px;
     line-height: 60px;
   }
 
-  .activities-page-section{
+  .activities-page-section {
     padding: 70px 0px 40px 0px;
   }
 
-  .activities-details{
+  .activities-details {
     padding: 70px 0px;
   }
 
-  .activities-details-content .content-two .image-box{
+  .activities-details-content .content-two .image-box {
     margin-bottom: 30px;
   }
 
-  .about-style-three{
+  .about-style-three {
     padding: 70px 0px 60px 0px;
   }
 
-  .image_block_three .image-box{
+  .image_block_three .image-box {
     padding: 0px;
   }
 
-  .image_block_three .image-box .image{
+  .image_block_three .image-box .image {
     margin-bottom: 30px;
   }
 
-  .image_block_three .image-box .single-image{
+  .image_block_three .image-box .single-image {
     padding: 0px 15px;
   }
 
-  .testimonial-style-two.about-page{
+  .testimonial-style-two.about-page {
     padding-top: 60px;
   }
 
-  .cta-section .inner-container{
+  .cta-section .inner-container {
     padding-top: 60px;
     padding-bottom: 70px;
   }
 
-  .team-section{
+  .team-section {
     padding: 60px 0px 40px 0px;
   }
 
-  .team-page-section{
+  .team-page-section {
     padding: 60px 0px 40px 0px;
   }
 
-  .gallery-page-section{
+  .gallery-page-section {
     padding: 70px 0px 40px 0px;
   }
 
   .sidebar-page-container,
-  .contact-section{
+  .contact-section {
     padding: 70px 0px;
   }
 
-  .feature-block-one .inner-box h5{
+  .feature-block-one .inner-box h5 {
     margin-bottom: 10px;
   }
 
-  .gallery-style-two{
+  .gallery-style-two {
     padding-bottom: 70px;
   }
-
-
 }
 
-@media only screen and (max-width: 599px){
-
-  .main-header .menu-right-content .support-box{
+@media only screen and (max-width: 599px) {
+  .main-header .menu-right-content .support-box {
     display: none;
   }
 
-  .content_block_two .content-box .upper{
+  .content_block_two .content-box .upper {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .testimonial-section .testimonial-inner .inner-box .text h3{
+  .testimonial-section .testimonial-inner .inner-box .text h3 {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .content_block_three .content-box .inner-box{
+  .content_block_three .content-box .inner-box {
     padding-right: 0px;
   }
 
-  .content_block_three .content-box .inner-box .inner{
+  .content_block_three .content-box .inner-box .inner {
     position: relative;
     top: 0px;
     width: 100%;
     margin-bottom: 25px;
   }
 
-  .header-style-two .menu-right-content{
+  .header-style-two .menu-right-content {
     display: none;
   }
 
-  .error-section{
+  .error-section {
     padding: 100px 0px;
   }
 
-  .blog-details-content .post-share-option .post-tags{
+  .blog-details-content .post-share-option .post-tags {
     float: none;
     display: block;
     margin-bottom: 15px;
   }
 
-  .blog-details-content .post-share-option .social-links{
+  .blog-details-content .post-share-option .social-links {
     float: none;
     display: block;
   }
 
-  .blog-details-content .author-box{
+  .blog-details-content .author-box {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .blog-details-content .author-box .author-thumb{
+  .blog-details-content .author-box .author-thumb {
     position: relative;
     left: 0px;
     top: 0px;
     margin-bottom: 15px;
   }
 
-  .blog-details-content .author-box h4{
+  .blog-details-content .author-box h4 {
     margin-bottom: 10px;
   }
 
-  .blog-details-content .comment-box .comment .reply-btn{
+  .blog-details-content .comment-box .comment .reply-btn {
     position: relative;
     top: 0px;
     margin-top: 10px;
   }
-
 }
 
-
-@media only screen and (max-width: 499px){
-
-  .mobile-menu{
+@media only screen and (max-width: 499px) {
+  .mobile-menu {
     width: 100%;
   }
 
-  .blog-sidebar .sidebar-widget{
+  .blog-sidebar .sidebar-widget {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .media-partner .media-links li{
+  .media-partner .media-links li {
     margin-right: 15px;
   }
 
-  .media-partner{
+  .media-partner {
     padding-left: 30px;
     padding-right: 30px;
   }
 
   .activities-section .lower-box,
-  .news-block-one .inner-box .lower-content{
+  .news-block-one .inner-box .lower-content {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .footer-top .top-inner .text h3{
+  .footer-top .top-inner .text h3 {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .banner-carousel .content-box h2 br{
+  .banner-carousel .content-box h2 br {
     display: none;
   }
 
-  .image_block_two .image-box .shape .shape-2{
+  .image_block_two .image-box .shape .shape-2 {
     right: 0px;
   }
 
-  .theme-btn{
+  .theme-btn {
     padding: 16.5px 40px;
   }
 
-  .activities-section .lower-box .text{
+  .activities-section .lower-box .text {
     padding-right: 0px;
   }
 
-  .activities-section .lower-box .text p br{
+  .activities-section .lower-box .text p br {
     display: none;
   }
 
-  .activities-details-content .content-one .lower-box{
+  .activities-details-content .content-one .lower-box {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .error-section .inner-box h1{
+  .error-section .inner-box h1 {
     font-size: 140px;
     line-height: 140px;
   }
 
-  .blog-details-content .comment-box .comment{
+  .blog-details-content .comment-box .comment {
     padding-left: 0px;
   }
 
-  .blog-details-content .comment-box .comment .thumb-box{
+  .blog-details-content .comment-box .comment .thumb-box {
     position: relative;
     top: 0px;
     margin-bottom: 25px;
   }
 
-  .content_block_six .content-box .inner-box .single-item h3{
+  .content_block_six .content-box .inner-box .single-item h3 {
     font-size: 18px;
     line-height: 26px;
   }
-
-
 }
 
-
-@media only screen and (max-width: 399px){
-
-  .main-header .search-box-outer .dropdown-menu{
+@media only screen and (max-width: 399px) {
+  .main-header .search-box-outer .dropdown-menu {
     right: -75px;
     width: 300px;
   }
 
-  .content_block_one .content-box .text p{
+  .content_block_one .content-box .text p {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .news-block-one .inner-box .lower-content h3{
+  .news-block-one .inner-box .lower-content h3 {
     font-size: 24px;
     line-height: 32px;
   }
 
-  .blog-details-content .post-share-option .post-tags li a{
+  .blog-details-content .post-share-option .post-tags li a {
     padding-left: 10px;
     padding-right: 10px;
   }
-
 }
